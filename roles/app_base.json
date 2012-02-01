@@ -1,9 +1,10 @@
 {
   "description": "A base application server roles. A foundation app server should contain java, ruby, node, python, perl; as well as supporting libraries (image magick)",
   "run_list": [
-    "recipe[image_magick]",
+    "recipe[imagemagick]",
     "recipe[java]",
-    "recipe[nodejs]"
+    "recipe[nodejs]",
+    "recipe[nodejs-support]"
   ],
   "java" : {
      "install_flavor" : "oracle"
