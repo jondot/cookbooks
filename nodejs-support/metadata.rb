@@ -5,5 +5,5 @@ description      "Adds nodejs supporting packages"
 version          "0.1.0"
 recipe           "nodejs-support", "Adds nodejs supporting packages"
 
-depends          "nodejs::npm"
+depends          "nodejs"
 
